@@ -246,7 +246,8 @@ $(function() {
     })
 
     // 로그인 팝업창 열기
-    $('.login').click(function() {
+    $('.login').click(function(e) {
+        e.preventDefault();
         $('.popup_login').toggleClass('none');
         $('.top_category_bg').css('display','block');
     });
