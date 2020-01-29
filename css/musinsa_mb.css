@@ -400,7 +400,7 @@ header .top_category_menu .depth_1>li>a{
     color: #fff;
     border: none;
     vertical-align: bottom;
-    float: left;
+    float: right;
 }
 .search_btn_wrap{
     width: 100%;
