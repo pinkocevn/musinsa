@@ -718,9 +718,9 @@ section{
 }
 section .all_view a{
     position: absolute;
-    top: 85px;
+    top: 75px;
     right: 15px;
-    font-size: 12px;
+    font-size: 11px;
     color: rgb(93, 93, 93);
 }
 .view_1>li>a img{
