@@ -232,12 +232,12 @@ $(function() {
     })
     // 최근검색어 모두 지우기
     $('.search_reset').click(function() {
-        if ($('.list-item-wrap').text()==0){
+        if ($('.list-item li a').text()==0){
             alert('삭제할 검색어가 없습니다.');
         }else{
             confirm('최근검색어를 모두 삭제하시겠습니까?');
             alert('삭제되었습니다.');
-            $('.list-item-wrap').empty().text('최근검색어가 없습니다.').css({
+            $('.list-item li a').empty().text('최근검색어가 없습니다.').css({
                 'text-align':'center',
                 'font-size':'12px',
                 'color':'#1b1b1b'
