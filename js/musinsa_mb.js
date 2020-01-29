@@ -183,7 +183,8 @@ $(function() {
 
 
     // 왼쪽에서 나타나는 무신사테라스 팝업 스르륵
-    $('.sp-category').click(function() {
+    $('.sp-category').click(function(e) {
+        e.preventDefault();
         $('.category_popup').toggleClass('none');
         $('.top_category_bg').css('display','block');
     });
