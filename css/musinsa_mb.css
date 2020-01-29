@@ -1447,11 +1447,11 @@ footer{
 }
 .like-brand-list ul li .like-brand-list-sp-3{
     background: url(../img/like-brand-list-sp.png);
-    background-position: -240px;
+    background-position: -360px;
 }
 .like-brand-list ul li .like-brand-list-sp-4{
     background: url(../img/like-brand-list-sp.png);
-    background-position: -360px;
+    background-position: -240px;
 }
 
 .like-brand-list ul li .brand-des{
