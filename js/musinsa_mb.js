@@ -109,7 +109,8 @@ $(function() {
     });
     
     // 왼쪽에서 나타나는 품목, 브랜드 팝업
-    $('.bt_fix_menu ul li:first-child').click(function() {
+    $('.bt_fix_menu ul li:first-child').click(function(e) {
+        e.preventDefault();
         // $('.main_menu-product').show();
         $('.main_menu-product').toggleClass('none');
     });
@@ -204,7 +205,8 @@ $(function() {
 
     // 상단 검색, 유저 아이콘 클릭시 팝업 스르륵
     // 검색 팝업창 열기
-    $('.search').click(function() {
+    $('.search').click(function(e) {
+        e.preventDefault();
         $('.popup_search').toggleClass('none');
         $('.top_category_bg').css('display','block');
     })
