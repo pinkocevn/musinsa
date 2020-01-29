@@ -1188,7 +1188,6 @@ footer{
     font-size: 12px;
 }
 .like-brand-list{
-    margin-top: 70px;
     margin-bottom: 70px;
 }
 .like-brand-list ul li a{
@@ -1205,7 +1204,8 @@ footer{
     background: none;
     padding-right: 7px;
 }
-.newest-view{
+.newest-view, .like-product-list, .like-brand-list{
+    margin-top: 70px;
 }
 .total span:first-child{
     display: block;
