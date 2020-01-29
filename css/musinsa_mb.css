@@ -1223,6 +1223,9 @@ footer{
 .delivery-top, .cart-top{
     background: #000;
 }
+.delivery-top ul li:last-child{
+    border: none;
+}
 .cart-top{
     position: fixed;
     width: 100%;
