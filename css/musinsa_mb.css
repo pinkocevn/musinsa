@@ -63,8 +63,8 @@ img{max-width: 100%; text-align: center;}
 .sp-arrow-down.rotate{
     transform: translateY(-50%) rotate(-180deg);
 }
-.sp-thumb-like{width: 22px; height: 22px; vertical-align: middle; background-position: 0 0;}
-.sp-thumb-review{width: 22px; height: 22px; vertical-align: middle; background-position: -20px -40px;}
+.sp-thumb-like{width: 22px; height: 22px; vertical-align: middle; background-position: 153px 23px;}
+.sp-thumb-review{width: 22px; height: 22px; vertical-align: middle; background-position: 133px 23px;}
 /* 상단 고정바 */
 .sp-category{width: 19px; height: 19px; background-position: 0 -30px;}
 .sp-search{width: 22px;height: 22px; background-position: -17px -28px;}
