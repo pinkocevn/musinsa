@@ -232,7 +232,7 @@ $(function() {
     })
     // 최근검색어 모두 지우기
     $('.search_reset').click(function() {
-        if ($('.search_reset').parents('li').text()==0){
+        if ($(this).parents('li').text()==0){
             alert('삭제할 검색어가 없습니다.');
         }else{
             confirm('최근검색어를 모두 삭제하시겠습니까?');
