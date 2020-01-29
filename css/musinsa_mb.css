@@ -301,6 +301,8 @@ header .top_category_menu .depth_1>li>a{
     position: absolute;
     top: 20px;
     right: 20px;
+    width: 36px;
+    height: 36px;
     background: none;
     border: none;
 }
