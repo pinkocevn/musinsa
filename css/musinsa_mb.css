@@ -1529,7 +1529,7 @@ footer{
 }
 .like-brand-list ul li{
     position: relative;
-    padding: 40px 15px 0;
+    padding: 40px 10px 0;
     overflow: hidden;
 }
 .like-brand-list ul li div{
@@ -1545,10 +1545,10 @@ footer{
 .like-brand-list ul li .brand-name .sp-3{
     display: inline-block;
     background: url(../img/like-brand-list-sp.png);
+    width: 120px;
     height: 60px;
 }
 .like-brand-list ul li .like-brand-list-sp-1{
-    width: 130px;
 }
 .like-brand-list ul li .like-brand-list-sp-2{
     width: 100px;
