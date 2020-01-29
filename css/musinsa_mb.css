@@ -479,7 +479,7 @@ header .top_category_menu .depth_1>li>a{
     line-height: 34px;
     position: relative;
 }
-.product_searchlist li .list-del{
+.product_searchlist li button.list-del{
     display: inline-block;
     width: 14px;
     height: 14px;
