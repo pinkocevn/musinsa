@@ -63,7 +63,8 @@ img{max-width: 100%; text-align: center;}
     transition: 0.5s;
 }
 .sp-arrow-down.rotate{
-    transform: translateY(-50%) rotate(-180deg);
+    /* transform: translateY(-50%) rotate(-180deg); */
+    background-position: -192px -61px;
 }
 .sp-thumb-like{width: 22px; height: 22px; vertical-align: middle; background-position: 153px 23px;}
 .sp-thumb-review{width: 22px; height: 22px; vertical-align: middle; background-position: 133px 23px;}
