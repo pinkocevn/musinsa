@@ -48,7 +48,7 @@ li{list-style: none;}
 img{max-width: 100%; text-align: center;}
 .sp{display: inline-block; background: url(../img/sp-img.png); background-size: 150px;}
 .sp-sub{display: inline-block; background: url(../img/img-sp.png); background-size: 150px 60px;}
-.inb{display: inline-block;}
+.sp-brand{display: inline-block; width: 120px; height: 30px;}
 /* 메인 메뉴 */
 .sp-close{width: 22px; height: 22px; background-position: -46px 0;
     position: absolute; right: 20px; top: 20px;
