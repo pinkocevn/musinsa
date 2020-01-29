@@ -533,7 +533,7 @@ header .top_category_menu .depth_1>li>a{
 .login-wrap{
     padding: 130px 25px 0;
 }
-.login-wrap .check-label{
+.login-wrap label{
     display: inline-block;
     width: 50%;
     float: left;
