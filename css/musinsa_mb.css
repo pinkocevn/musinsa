@@ -1544,22 +1544,23 @@ footer{
 }
 .like-brand-list ul li .brand-name .sp-3{
     display: inline-block;
-    background: url(../img/like-brand-list-sp.png);
     width: 120px;
     height: 60px;
 }
 .like-brand-list ul li .like-brand-list-sp-1{
-    background-position: 
+    
 }
 .like-brand-list ul li .like-brand-list-sp-2{
-    background-position: ;
+    background: url(../img/like-brand-list-sp.png);
+    background-position: -120px;
 }
 .like-brand-list ul li .like-brand-list-sp-3{
-    background-position: ;
+    background: url(../img/like-brand-list-sp.png);
+    background-position: -240px;
 }
 .like-brand-list ul li .like-brand-list-sp-4{
-    background-position: ;
-
+    background: url(../img/like-brand-list-sp.png);
+    background-position: -360px;
 }
 
 .like-brand-list ul li .brand-des{
