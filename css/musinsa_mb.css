@@ -1433,7 +1433,7 @@ footer{
 }
 .like-brand-list ul li .brand-name{
     position: relative;
-    width: 35%;
+    width: 40%;
     padding-right: 12px;
 }
 .like-brand-list ul li .brand-name .sp-3{
@@ -1458,7 +1458,7 @@ footer{
 }
 
 .like-brand-list ul li .brand-des{
-    width: 65%;
+    width: 60%;
     padding-left: 0;
     font-size: 11px;
     color: #6b6b6b;
