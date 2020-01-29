@@ -237,7 +237,7 @@ $(function() {
         }else{
             confirm('최근검색어를 모두 삭제하시겠습니까?');
             alert('삭제되었습니다.');
-            $('.list-item li a').empty();
+            // $('.list-item li a').empty();
         };
     })
 
