@@ -46,6 +46,7 @@
 *{padding: 0; margin: 0;}
 li{list-style: none;}
 img{max-width: 100%; text-align: center;}
+.blind{font-size: 0; position: absolute; left:-9999px;}
 .sp{display: inline-block; background: url(../img/sp-img.png); background-size: 150px;}
 .sp-sub{display: inline-block; background: url(../img/img-sp.png); background-size: 150px 60px;}
 .sp-brand{display: inline-block; width: 120px; height: 60px;}
