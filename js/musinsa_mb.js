@@ -178,7 +178,7 @@ $(function() {
     $('.menu_title a').click(function() {
         $(this).nextAll().slideToggle();
         // $(this).removeClass();
-        $(this).find('.sp-2').toggleClass('rotate');
+        $(this).find('.sp-arrow-down').toggleClass('rotate');
 
     })
 
