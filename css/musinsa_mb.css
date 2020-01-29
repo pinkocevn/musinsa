@@ -394,6 +394,10 @@ header .top_category_menu .depth_1>li>a{
     font-weight: bold;
     padding-right: 5px;
 }
+.product_searchlist li.no_list{
+    text-align: center;
+    font-size: 12px;
+}
 .product_searchlist.none{
     display: none;
 }
