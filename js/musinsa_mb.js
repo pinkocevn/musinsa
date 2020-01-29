@@ -237,11 +237,7 @@ $(function() {
         }else{
             confirm('최근검색어를 모두 삭제하시겠습니까?');
             alert('삭제되었습니다.');
-            $('.list-item-wrap').empty().text('최근검색어가 없습니다.').css({
-                'text-align':'center',
-                'font-size':'12px',
-                'color':'#1b1b1b'
-            });
+            $('.list-item li a').empty();
         };
     })
 
