@@ -80,7 +80,9 @@
             <button class="popup_close"><i class="material-icons">close</i></button>
             <div class="search_wrap">
                 <form action="#">
-                    <input type="text" id="searchbox-1">
+                    <label for="searchbox-1">
+                        <input type="text" id="searchbox-1">
+                    </label>
                     <button class="search_btn">검색</button>
                 </form>
                 <div class="search_btn_wrap">
@@ -118,8 +120,12 @@
         <div class="popup_login none">
             <button class="popup_close"><i class="material-icons">close</i></button>
             <form name="login" class="login-wrap">
-                <input type="text" name="id" id="id">
-                <input type="password" name="password" id="pw">
+                <label for="id">
+                    <input type="text" name="id" id="id">
+                </label>
+                <label for="pw">
+                    <input type="password" name="password" id="pw">
+                </label>
                 <button class="btn_log">로그인</button>
                 <div class="login-label-wrap">
                     <label><input type="checkbox" name="remember_id"><i class="fas fa-check-circle"></i>아이디 저장</label >
