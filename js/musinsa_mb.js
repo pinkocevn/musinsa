@@ -90,12 +90,16 @@ $(function() {
     // 상품 하트 눌렀을 때
     $('.fa-heart').click(function(e) {
         e.preventDefault();
-        if ($(this).hasClass('fas')) {
-            $(this).removeClass('fas');
-            $(this).addClass('far');
-        }else{
-            $(this).removeClass('far');
-            $(this).addClass('fas');
+        // if ($(this).hasClass('fas')) {
+        //     $(this).removeClass('fas');
+        //     $(this).addClass('far');
+        // }else{
+        //     $(this).removeClass('far');
+        //     $(this).addClass('fas');
+        //     alert('관심있는 상품 리스트에 추가되었습니다.')
+        // }
+        $(this).toggleClass('fas far')
+        if($(this).hasClass('fas')){
             alert('관심있는 상품 리스트에 추가되었습니다.')
         }
     })
@@ -142,18 +146,19 @@ $(function() {
         
         var selector = $(this).data('filter');
         // console.log(selector);
+        //바로 바뀌게 한다.
+        $('.item').hide();
+        $('.brand-list '+selector).show();
+        // $('.item').addClass('off').fadeOut(function(){
 
-        $('.item').addClass('off').fadeOut(function(){
-
-                setTimeout(function(){
-                $('.brand-list '+selector).fadeIn().removeClass('off');
-             },200)
-        });
+        //         setTimeout(function(){
+        //         $('.brand-list '+selector).fadeIn().removeClass('off');
+        //      },200)
+        // });
     })
 
     $('.product-btn').click(function() {
-        if ($(this).hasClass('active')) {
-        }else{
+        if (!$(this).hasClass('active')){
             $(this).addClass('active');
             $(this).siblings().removeClass('active');
             $('.product_list').toggleClass('none');
@@ -204,12 +209,11 @@ $(function() {
 
     // 최근검색어, 인기검색어 탭메뉴
     $('.search_list').click(function() {
-        if ($(this).hasClass('active')) {
-        }else{
+        if (!$(this).hasClass('active')) {
             $(this).addClass('active');
             $(this).siblings().removeClass('active');
             $('.product_searchlist').toggleClass('none');
-        };
+        }
     })
 
     // 최근검색어 하나씩 지우기
@@ -252,20 +256,20 @@ $(function() {
 
 
     // 슬라이드 폭에 따른 높이
-    $(window).ready(function(e){
-        var lih = $('.liheight:first-child').height();
-        // var lihh = $('.liheight:last-child').height();
-        // console.log(lih);
-        // console.log(lihh);
-        $('.liheight:last-child').height(lih);
-    })
+    // $(window).ready(function(e){
+    //     var lih = $('.liheight:first-child').height();
+    //     // var lihh = $('.liheight:last-child').height();
+    //     // console.log(lih);
+    //     // console.log(lihh);
+    //     $('.liheight:last-child').height(lih);
+    // })
     $(window).resize(function(e){
         var lih = $('.liheight:first-child').height();
         // var lihh = $('.liheight:last-child').height();
         // console.log(lih);
         // console.log(lihh);
         $('.liheight:last-child').height(lih);
-    })
+    }).resize()
     
 
     // 데일리룩 더보기
@@ -277,9 +281,9 @@ $(function() {
             if ($('.dailylook ul li:hidden').length==0) {
                 btn.text('접기');
             }
-            }else{
-                $('.dailylook ul li').hide().slice(0, 2).show();
-                btn.text('더보기');
-            }
+        }else{
+            $('.dailylook ul li').hide().slice(0, 2).show();
+            btn.text('더보기');
+        }
     })
 })

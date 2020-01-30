@@ -575,10 +575,10 @@ header .top_category_menu .depth_1>li>a{
 }
 .menu_title>li>a{
     font-weight: bold;
+    display: block;
 }
 .menu_title>li>.submenu>li{
-    padding-bottom: 5px;
-    padding-left: 15px;
+    padding: 7px 15px;
 }
 .btn_wrap{
     text-align: center;
