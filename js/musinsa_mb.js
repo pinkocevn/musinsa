@@ -138,15 +138,11 @@ $(function() {
     $('.brand-box button').click(function(e){ 
         e.preventDefault();
         
-        // 버튼에는 data-filter 걸고 브랜드 리스트에는 그 필터값을 클래스로 넣어
         var selector = $(this).data('filter');
-        // 찍으면 내가 클릭한 버튼의 필터값이 뜰 거야
         console.log(selector);
 
-        // 너가 누른 넘들 빼고 싹 off 걸고 사라지게 해
         $('.item').addClass('off').fadeOut(function(){
-            // 그리고 브랜드 전체리스트 안에 있는, 너가 누른 버튼에 맞는 넘들을
-            // 0.2초동안 보여줘 그리고 off 붙었던 거 떼
+
                 setTimeout(function(){
                 $('.brand-list '+selector).fadeIn().removeClass('off');
              },200)
