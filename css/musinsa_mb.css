@@ -762,8 +762,8 @@ section .all_view a{
 }
 .rank_listbox>li>a{
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 15px;
+    top: 15px;
 }
 .rank_listbox>li:first-child>a>i{
     font-size: 30px;
