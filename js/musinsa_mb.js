@@ -254,14 +254,14 @@ $(function() {
     // 슬라이드 폭에 따른 높이
     $(window).ready(function(e){
         var lih = $('.liheight:first-child').height();
-        var lihh = $('.liheight:last-child').height();
+        // var lihh = $('.liheight:last-child').height();
         // console.log(lih);
         // console.log(lihh);
         $('.liheight:last-child').height(lih);
     })
     $(window).resize(function(e){
         var lih = $('.liheight:first-child').height();
-        var lihh = $('.liheight:last-child').height();
+        // var lihh = $('.liheight:last-child').height();
         // console.log(lih);
         // console.log(lihh);
         $('.liheight:last-child').height(lih);
