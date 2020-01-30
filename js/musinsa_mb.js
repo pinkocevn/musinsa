@@ -48,7 +48,6 @@ $(function() {
         e.preventDefault();
         $('.rank_list li a').removeClass('active');
         $(this).addClass('active');
-
         
         var rankId = $(this).attr('href');
         console.log(rankId);
