@@ -50,7 +50,7 @@ $(function() {
         $(this).addClass('active');
 
         var rankId = $(this).attr('href');
-        console.log(rankId);
+        // console.log(rankId);
         
         $('.rank_wrap ul').removeClass('none');
         $(rankId).siblings().addClass('none');
@@ -67,7 +67,7 @@ $(function() {
 
         // 내가누른 탭메뉴는 인덱스순으로 몇번째일까?
         var tabIndex=$(this).index('.shopping_issue>ul li a');
-        console.log(tabIndex);
+        // console.log(tabIndex);
         
         var issueImg=[
             ['img/tab1-1.jpg', 'img/tab1-2.jpg', 'img/tab1-3.jpg', 'img/tab1-4.jpg'],
@@ -255,15 +255,15 @@ $(function() {
     $(window).ready(function(e){
         var lih = $('.liheight:first-child').height();
         var lihh = $('.liheight:last-child').height();
-        console.log(lih);
-        console.log(lihh);
+        // console.log(lih);
+        // console.log(lihh);
         $('.liheight:last-child').height(lih);
     })
     $(window).resize(function(e){
         var lih = $('.liheight:first-child').height();
         var lihh = $('.liheight:last-child').height();
-        console.log(lih);
-        console.log(lihh);
+        // console.log(lih);
+        // console.log(lihh);
         $('.liheight:last-child').height(lih);
     })
     
