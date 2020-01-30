@@ -151,19 +151,7 @@ $(function() {
                 $('.brand-list '+selector).fadeIn().removeClass('off');
              },200)
         });
-        
-
-
     })
-
-    // 왼쪽에서 나타나는 메뉴의 카테고리 버튼
-    // $('.product-btn').click(function() { 바보
-    //     $(this).addClass('active');
-    //     $(this).siblings().removeClass('active');
-    //     if ($('.product-btn').hasClass('active')) {
-    //         $('.product_list').toggleClass('none')
-    //     };
-    // });
 
     $('.product-btn').click(function() {
         if ($(this).hasClass('active')) {
@@ -257,7 +245,6 @@ $(function() {
     })
 
     // 하단, 무신사 상세정보
-
     $('.bottom_info li').click(function(e) {
         e.preventDefault();
         $(this).find('div').slideToggle();
@@ -267,7 +254,6 @@ $(function() {
 
 
     // 슬라이드 폭에 따른 높이
-    
     $(window).ready(function(e){
         var lih = $('.liheight:first-child').height();
         var lihh = $('.liheight:last-child').height();
@@ -285,12 +271,6 @@ $(function() {
     
 
     // 데일리룩 더보기
-//     $('.daily_more').click(function(){
-//         if ($(this).text=('더보기')) {
-//             $('.daily2').show();
-//             $(this).text('닫기')
-//     }
-// })
     $('.dailylook ul li').slice(0, 2).show();
     $('.daily_more').click(function() {
         var btn =$(this);
