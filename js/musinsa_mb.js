@@ -113,10 +113,13 @@ $(function() {
         e.preventDefault();
         // $('.main_menu-product').show();
         $('.main_menu-product').toggleClass('none');
+        $('.top_category_bg').css('display','block');
     });
     $('.main_menu-product .popup_close').click(function() {
         // $(this).parents('.main_menu-product').hide();
         $('.main_menu-product').toggleClass('none');
+        $('.top_category_bg').css('display','none');
+
     });
 
 
