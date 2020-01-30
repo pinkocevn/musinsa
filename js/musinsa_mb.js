@@ -48,7 +48,7 @@ $(function() {
         e.preventDefault();
         $('.rank_list li a').removeClass('active');
         $(this).addClass('active');
-        
+
         var rankId = $(this).attr('href');
         console.log(rankId);
         
@@ -169,7 +169,7 @@ $(function() {
     })
 
 
-    // 왼쪽에서 나타나는 무신사테라스 팝업 스르륵
+    // 왼쪽에서 나타나는 무신사테라스 팝업
     $('.sp-category').click(function(e) {
         e.preventDefault();
         $('.category_popup').toggleClass('none');
@@ -189,7 +189,7 @@ $(function() {
         }
     })
 
-    // 상단 검색, 유저 아이콘 클릭시 팝업 스르륵
+    // 상단 검색, 유저 아이콘 클릭시 팝업
     // 검색 팝업창 열기
     $('.search').click(function(e) {
         e.preventDefault();
