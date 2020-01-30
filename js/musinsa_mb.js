@@ -141,7 +141,7 @@ $(function() {
         e.preventDefault();
         
         var selector = $(this).data('filter');
-        console.log(selector);
+        // console.log(selector);
 
         $('.item').addClass('off').fadeOut(function(){
 
@@ -218,7 +218,7 @@ $(function() {
     })
     // 최근검색어 모두 지우기
     $('.search_reset').click(function() {
-        console.log($('.recent_list li').length);
+        // console.log($('.recent_list li').length);
         
         if ($('.recent_list li').length==0){
             alert('삭제할 검색어가 없습니다.');
