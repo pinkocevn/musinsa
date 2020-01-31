@@ -1030,7 +1030,7 @@ footer{
 }
 .bottom_info li div{
     display: none;
-    padding: 14px;
+    margin: 20px 15px;
 }
 .bottom_info li div p{
     font-size: 11px;
