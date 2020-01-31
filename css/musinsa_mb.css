@@ -639,6 +639,9 @@ header .top_category_menu .depth_1>li>a{
 .brand-list a:hover{
     font-weight: bold;
 }
+.brand-list{
+    margin-top: 20px;;
+}
 .brand-list li{
     font-size: 12px;
     padding: 5px 0px;
