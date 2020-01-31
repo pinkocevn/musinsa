@@ -467,6 +467,7 @@ header .top_category_menu .depth_1>li>a{
     background: #000;
     color: #fff;
     margin-bottom: 10px;
+    font-size: 14px;
 }
 .login-wrap{
     padding: 130px 25px 0;
@@ -977,13 +978,14 @@ footer{
 }
 .wrap_cs-sns{
     position: relative;
-    height: 140px;
+    height: 160px;
     background: #fff;
 }
 .wrap_cs-sns .bottom_cs_num{
     position: absolute;
     left: 20px;
-    bottom: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .wrap_cs-sns .bottom_cs_num span{
     font-size: 24px;
@@ -996,7 +998,7 @@ footer{
 .wrap_cs-sns .bottom_sns{
     position: absolute;
     right: 20px;
-    bottom: 20px;
+    bottom: 30px;
     height: 30px;
 }
 .bottom_menu{
