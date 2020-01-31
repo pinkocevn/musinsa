@@ -1,11 +1,13 @@
 @charset "UTF-8";
-@font-face {
-    /* font-family: 'KoPubDotum';
-    src: url(fonts/KoPubDotumLight0.ttf); */
-}
-/* body{
+/* @font-face {
     font-family: 'KoPubDotum';
+    src: url(fonts/KoPubDotumLight0.ttf);
 } */
+body{
+    /* font-family: 'KoPubDotum'; */
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
 .swiper-container {
     width: 100%;
     height: 100%;
