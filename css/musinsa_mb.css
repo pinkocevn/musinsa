@@ -373,6 +373,7 @@ header .top_category_menu .depth_1>li>a{
     border: none;
     vertical-align: bottom;
     float: right;
+    font-size: 14px;
 }
 .product_searchlist{
     position: relative;
@@ -547,7 +548,7 @@ header .top_category_menu .depth_1>li>a{
     border: none;
 }
 .product_list{
-    padding: 170px 25px 0;
+    padding: 160px 25px 0;
 }
 .product_list .menu_title>a{
     position: relative;
@@ -599,7 +600,7 @@ header .top_category_menu .depth_1>li>a{
     width: 48%;
     border: 1px solid #000;
     background: #fff;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 14px;
 }
 .main_menu-product .btn_wrap button:nth-child(1){float: left;}
