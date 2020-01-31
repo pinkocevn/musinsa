@@ -1437,6 +1437,7 @@ footer{
     display: inline-block;
     color: #fff;
     font-size: 12px;
+    line-height: 30px;
 }
 .bt-menu-title>a{
     position: absolute;
