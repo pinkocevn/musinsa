@@ -614,8 +614,6 @@ header .top_category_menu .depth_1>li>a{
 .main_menu-product li{
     position: relative;
     display: block;
-    padding: 8px 0px;
-    font-size: 13px;
 }
 .brand-box{
     overflow: hidden;
@@ -641,6 +639,7 @@ header .top_category_menu .depth_1>li>a{
 }
 .brand-list li{
     font-size: 12px;
+    padding: 5px 0px;
 }
 
 /* 메인슬라이드 */
