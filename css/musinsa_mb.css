@@ -1356,7 +1356,7 @@ footer{
     position: relative;
     float: right;
     width: 70%;
-    padding: 20px 20px 0;
+    padding: 20px 20px 0 15px;
     box-sizing: border-box;
 }
 .cart-wrap .cart-product .cart-info b{
