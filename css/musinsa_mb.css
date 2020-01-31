@@ -617,7 +617,7 @@ header .top_category_menu .depth_1>li>a{
 }
 .brand-box{
     overflow: hidden;
-    margin: 20px auto 10px; 
+    margin: 20px auto; 
 }
 .brand-box button{
     float: left;
