@@ -858,7 +858,7 @@ section .all_view a{
 }
 .styling_view dt{
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
 }
 .styling_view dd{
     font-size: 11px;
