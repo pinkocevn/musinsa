@@ -862,7 +862,7 @@ section .all_view a{
 }
 .styling_view dd{
     font-size: 11px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
 }
 .styling_view>li{
     float: left;
