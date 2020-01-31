@@ -88,8 +88,8 @@ button{cursor: pointer;}
 .sp-cart{width: 30px; height: 30px; background-position: -120px 0;}
 
 /* 푸터 sns */
-.sp-instagram{width: 30px; height: 30px; background-position: 93px -31px;}
-.sp-youtube{width: 30px; height: 30px; background-position: 61px -31px;}
+.sp-instagram{width: 30px; height: 30px; background-position: 93px -31px; margin-right: 5px;}
+.sp-youtube{width: 30px; height: 30px; background-position: 61px -31px; margin-right: 5px}
 .sp-facebook{width: 30px; height: 30px; background-position: 30px -31px;}
 
 
