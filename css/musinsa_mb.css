@@ -540,8 +540,7 @@ header .top_category_menu .depth_1>li>a{
     z-index: 9999;
     position: fixed;
     width: 80%;
-    height: 130px;
-    padding-bottom: 20px;
+    height: 135px;
     background: #fff;
 }
 .main_fix_menu .popup_close{
@@ -625,7 +624,7 @@ header .top_category_menu .depth_1>li>a{
     float: left;
     width: 23.5%;
     height: 60px;
-    margin: 10px 2% 0 0;
+    margin: 5px 2% 0 0;
     background: #eee;
     border: none;
 }
