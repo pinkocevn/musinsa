@@ -609,7 +609,7 @@ header .top_category_menu .depth_1>li>a{
     background: #000;
 }
 .main_menu-product ul{
-    margin: 25px auto;
+    margin: auto;
 }
 .main_menu-product li{
     position: relative;
@@ -638,7 +638,7 @@ header .top_category_menu .depth_1>li>a{
     font-weight: bold;
 }
 .brand-list{
-    margin-top: 20px;;
+    margin: 20px;
 }
 .brand-list li{
     font-size: 12px;
