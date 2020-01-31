@@ -472,7 +472,6 @@ header .top_category_menu .depth_1>li>a{
     padding: 130px 25px 0;
 }
 .login-wrap label{
-    display: inline-block;
     width: 50%;
     float: left;
     font-size: 12px;
@@ -1426,7 +1425,6 @@ footer{
     font-size: 14px;
 }
 .bt-menu-tab li.bt-menu-sub{
-    display: inline-block;
     height: 30px;
     background: #000;
     float: left;
