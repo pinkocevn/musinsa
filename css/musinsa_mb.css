@@ -610,6 +610,7 @@ header .top_category_menu .depth_1>li>a{
 }
 .main_menu-product ul{
     margin: auto;
+    margin-bottom: 25px;
 }
 .main_menu-product li{
     position: relative;
